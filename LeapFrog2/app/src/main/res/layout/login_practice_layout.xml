@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="WELCOME"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:textSize="40dp"
+    android:typeface="normal"
+    android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/welcomeTextView" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:textSize="10dp"
+        android:typeface="normal"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:ems="25"
+        android:layout_below="@+id/welcomeTextView"
+        android:id="@+id/loremTextView" />
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/emailEditText"
+        android:layout_below="@+id/loremTextView"
+        android:layout_centerHorizontal="true"
+        android:ems="12"
+        android:hint="Email Address"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:gravity="center"
+        android:background="@drawable/login_edittext_res"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/passEditText"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:ems="12"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@drawable/login_edittext_res"/>
+    
+    <Button
+        android:id="@id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/passEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:textColor="#ffffff"
+        android:text="Login"
+        android:background="@drawable/login_button_res"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/pipeTextView"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:text="Password"
+            android:background="@drawable/login_button2_res"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginButton"
+            android:text="|"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/pipeTextView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pipeTextView"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:text="Register"
+            android:background="@drawable/login_button2_res"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

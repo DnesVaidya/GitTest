@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="EPL">
+        <item>Arsenal</item>
+        <item>Chelsea</item>
+        <item>Everton</item>
+    </array>
+</resources>

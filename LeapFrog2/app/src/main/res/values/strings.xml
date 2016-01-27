@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LeapFrog2</string>
+    <string name="app_list">LeapFrog | List</string>
+    <string name="menu_list">LeapFrog | Example Menu List</string>
+    <string name="app_login">LeapFrog | Login</string>
+    <string name="app_datapass">LeapFrog | DataPass</string>
+</resources>
