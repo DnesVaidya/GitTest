@@ -21,6 +21,7 @@ public class MenuListActivity extends AppCompatActivity {
             add("Style Example");
             add("Login View Practice");
             add("Custom Font Example");
+            add("Fragment Example");
         }
     };
 
@@ -70,6 +71,10 @@ public class MenuListActivity extends AppCompatActivity {
                 case 5:
                     Intent i5 = new Intent(MenuListActivity.this, Custom_Fonts.class);
                     startActivity(i5);
+                    break;
+                case 6:
+                    Intent i6 = new Intent(MenuListActivity.this, FragmentActivityExample.class);
+                    startActivity(i6);
                     break;
             }
         }

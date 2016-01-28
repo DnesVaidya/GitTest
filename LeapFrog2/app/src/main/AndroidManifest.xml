@@ -33,7 +33,9 @@
         <activity android:name=".CustomListView" />
         <activity android:name=".Style_Example" />
         <activity android:name=".LoginPractice1" />
-        <activity android:name=".Custom_Fonts"></activity>
+        <activity android:name=".Custom_Fonts" />
+        <activity android:name=".module.FragmentExample" />
+        <activity android:name=".FragmentActivityExample"></activity>
     </application>
 
 </manifest>
