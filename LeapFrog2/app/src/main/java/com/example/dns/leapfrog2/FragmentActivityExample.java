@@ -17,10 +17,10 @@ public class FragmentActivityExample extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment_activity_example);
         if(replacefrag) {
-            addFragment(new FragmentExample());
+            addFragment(new Fragment2());
         }
         else {
-            addFragment(new Fragment2());
+            addFragment(new FragmentExample());
         }
     }
 
