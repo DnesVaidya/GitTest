@@ -1,0 +1,27 @@
+{
+	"response": "ok",
+	"employee": [{
+		"name": "Dinesh",
+		"jobtitle": "Android Developer"
+	  },
+	  {
+		"name": "Subash",
+		"jobtitle": "CMS Manager"
+	  },
+	  {
+		"name": "Dheeraj",
+		"jobtitle": "IOS Developer"
+	  },
+	  {
+		"name": "Manoj",
+		"jobtitle": "Graphics Designer"
+	  },
+	  {
+		"name": "Swekchya",
+		"jobtitle": "Content Writer"
+	  },
+	  {
+		"name": "Amit",
+		"jobtitle": "Project Manager"
+	  }]
+}

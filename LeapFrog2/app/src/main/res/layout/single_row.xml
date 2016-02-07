@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:paddingBottom="10dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    android:paddingTop="10dp">
+    android:paddingTop="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/fragment_fb_btn">
 
     <ImageView
         android:id="@+id/profileImageView"
+        android:layout_marginLeft="25dp"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="centerCrop"/>
@@ -21,7 +24,7 @@
         android:textSize="20dp"
         android:layout_marginLeft="5dp"
         android:textAllCaps="true"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/jobTitleTextView"

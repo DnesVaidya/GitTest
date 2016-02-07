@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dns.leapfrog2">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".application.MyApplication"
         android:allowBackup="true"
@@ -34,8 +36,16 @@
         <activity android:name=".Style_Example" />
         <activity android:name=".LoginPractice1" />
         <activity android:name=".Custom_Fonts" />
-        <activity android:name=".module.FragmentExample" />
-        <activity android:name=".FragmentActivityExample"></activity>
+        <activity android:name=".FragmentActivityExample" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity
+            android:name=".MaterialDesignTabs"
+            android:label="@string/title_activity_parallax_scrolling_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JsonActivity"
+            android:label="@string/title_activity_json"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

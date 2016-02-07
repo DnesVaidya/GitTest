@@ -4,4 +4,10 @@
     <string name="menu_list">LeapFrog | Example Menu List</string>
     <string name="app_login">LeapFrog | Login</string>
     <string name="app_datapass">LeapFrog | DataPass</string>
+    <string name="pass_locked">locked</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_parallax_scrolling_tabs">MaterialDesignTabs</string>
+    <string name="title_activity_json">JsonActivity</string>
 </resources>

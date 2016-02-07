@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dns.leapfrog2.module.SignInFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <com.example.dns.leapfrog2.view.CustomTextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:textColor="#dadae4"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userEditText"
+                android:ems="10"
+                android:hint="Email"
+                android:textColor="#000000"
+                android:textColorHint="#dadae4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <com.example.dns.leapfrog2.view.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_"
+                android:textColor="#dadae4" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/passEditText"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColorHint="#dadae4"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="12"
+            android:textColor="#d6d6e1"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:background="@drawable/fragment_login_btn"/>
+
+        <Button
+            android:id="@id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="12"
+            android:textColor="#ffffff"
+            android:text="Facebook"
+            android:background="@drawable/fragment_fb_btn"/>
+    </LinearLayout>
+
+
+</FrameLayout>

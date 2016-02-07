@@ -3,6 +3,7 @@ package com.example.dns.leapfrog2;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -22,6 +23,9 @@ public class MenuListActivity extends AppCompatActivity {
             add("Login View Practice");
             add("Custom Font Example");
             add("Fragment Example");
+            add("PageViewer Activity");
+            add("Material Design Tabs");
+            add("Json Activity");
         }
     };
 
@@ -76,6 +80,19 @@ public class MenuListActivity extends AppCompatActivity {
                     Intent i6 = new Intent(MenuListActivity.this, FragmentActivityExample.class);
                     startActivity(i6);
                     break;
+                case 7:
+                    Intent i7 = new Intent(MenuListActivity.this, ViewPagerActivity.class);
+                    startActivity(i7);
+                    break;
+                case 8:
+                    Intent i8 = new Intent(MenuListActivity.this, MaterialDesignTabs.class);
+                    startActivity(i8);
+                    break;
+                case 9:
+                    Intent i9 = new Intent(MenuListActivity.this, JsonActivity.class);
+                    startActivity(i9);
+                    break;
+
             }
         }
     };
