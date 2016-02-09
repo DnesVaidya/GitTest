@@ -26,6 +26,7 @@ public class MenuListActivity extends AppCompatActivity {
             add("PageViewer Activity");
             add("Material Design Tabs");
             add("Json Activity");
+            add("Json API Hit");
         }
     };
 
@@ -91,6 +92,10 @@ public class MenuListActivity extends AppCompatActivity {
                 case 9:
                     Intent i9 = new Intent(MenuListActivity.this, JsonActivity.class);
                     startActivity(i9);
+                    break;
+                case 10:
+                    Intent i10 = new Intent(MenuListActivity.this, Json2Activity.class);
+                    startActivity(i10);
                     break;
 
             }

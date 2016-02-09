@@ -3,6 +3,8 @@
     package="com.example.dns.leapfrog2">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".application.MyApplication"
@@ -45,7 +47,8 @@
         <activity
             android:name=".JsonActivity"
             android:label="@string/title_activity_json"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Json2Activity"></activity>
     </application>
 
 </manifest>

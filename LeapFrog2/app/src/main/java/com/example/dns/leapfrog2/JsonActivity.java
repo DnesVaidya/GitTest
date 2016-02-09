@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.dns.leapfrog2.module.CustomArrayAdapter;
 import com.example.dns.leapfrog2.module.EmployeeJson;
+import com.example.dns.leapfrog2.module.JsonArrayAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,6 +32,11 @@ public class JsonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_json);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        if(toolbar != null) {
+            setSupportActionBar(toolbar);
+        }
 
         jsonList = (ListView)findViewById(R.id.jsonListView);
         String jsonData = loadJson();
@@ -74,7 +80,7 @@ public class JsonActivity extends AppCompatActivity {
     }
 
     private void bindData() {
-        ArrayAdapter CAA = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list);
-        jsonList.setAdapter(CAA);
+        JsonArrayAdapter JAA = new JsonArrayAdapter(this, R.layout.json_singlerow, list);
+        jsonList.setAdapter(JAA);
     }
 }
